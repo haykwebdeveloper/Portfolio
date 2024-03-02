@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=320, initial-scale=1, shrink-to-fit=no">
+    <title>Portfolio</title>
+    <!-- <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff"> -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+</head>
+<body>
+    
+    <header>
+        <div class="header2">
+            <nav>
+                <div class="name"><h1>Portfolio</h1></div>
+                <ul>
+                    <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="#about" id="aboutButton"><i class="fas fa-clipboard-list"></i> About</a></li>
+                    <li><a href="#skills" id="skillsbutton"><i class="fas fa-fire-alt"></i> Skills</a></li>
+                    <li><a href="#projects" id="projectsbutton"><i class="fas fa-images"></i> Projects</a></li>
+                </ul>
+                <!-- <div class="menu-icon"><img src="myimg/menu.png"></div> -->
+            </nav>
+        </div>
+        
+        <div class="textdiv1">
+            <div class="hdtextdiv">
+                <h1 class="hdtextdivh1">Hi!👋</h1>
+                <h1 style="display: flex; flex-direction: row; gap: 20px; align-items: center; font-size: 40px; font-weight: bold;">i'm <div><h1 class="hayk">Hayk</h1></div></h1>
+                <h3 class="textdiv2h3">Web Developer</h3>           
+            </div>
+
+            <div class="socialicons">
+                <p  class="followme" style="display: block; margin-bottom: 10px;">Follow Me:</p>
+                <div class="sociallinks">
+                    <a href="https://www.facebook.com/hayk.safaryan.336/" target="_blank">
+                        <i class="fab fa-facebook-f hover1"></i>
+                    </a>
+                    <a href="https://twitter.com/hayk79821295" target="_blank">
+                        <i class="fab fa-twitter hover2"></i>
+                    </a>
+                    <a href="https://www.instagram.com/___safaryan.012/?hl=ru" target="_blank">
+                        <i class="fab fa-instagram hover3"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div id="page">
+        
+        
+        <div class="main_about_section">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-6 col-md-8">
+                        <div class="aboutme">
+                          <h1 class="aboutmeh1">About Me</h1>
+                           <p class="aboutmep">Ես 16 տարեկան եմ, սովորել եմ երկրորդ միջնակարգ դպրոցում 9 տարի և այժմ սովորում եմ Մրգավանի 
+                              միջնակարգ դպրոցում 11-րդ դասարանում։ 6 տարի սովորել եմ երաժշտական ​​դպրոցում՝ դհոլի բաժնում
+                              և լավ տիրապետում եմ այդ երաժշտական գործիքն: Արդեն 11 ամիս է սովորում եմ IT Արտաշատում, շատ գոհ եմ
+                              ուսուցիչներից ընկեր Սերինեից, Ընկեր Վահեից, ընկեր Գևորգից և շատ գոհ եմ իմ արդյունքից։ Ես տիրապետում եմ HTML CSS Java Script լեզուներին և
+                              շատ եմ սիրում եմ աշխատել իմ նախագծերի վրա
+                           </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <div class="myimgdiv">
+                            <div class="myimg"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="main_skills_section">
+           <div class="container-fluid"> <!-- Ռեսպոնսիվ սետկան ստեղծելու համար միշտ առաջինը գրումես ես հիմնական և գլխավոր կլասով (container կամ container-fluid) div-ը, container-fluid վերցնումա քո եկրանի ամբողջ լայնությունը, բայց css-ում կարողես նշել քո ցանկացած մաքսիմում լայմությունը պիքսելով, այսինքն փոխես, որ ինքը օրինակ մաքսիմումը գրավի 1500 պիքսել եվ ոչ ավել․ Իսկ սովորական container-ը չես կարա պոխես, իրա մեջ արդեն գրվացա որ իրա լայնությունը մաքսիմումը 1170 պիքսելա-->
+             <div class="skills_title"><h1>There are My Skills</h1></div>
+               <div class="skills_list">
+                <div class="row"><!-- Сontainer-ի մեջ առաջինը գրումես (row) կլասով div-ը, display flex չոկտագորցելու համար սենց կոդենք գրում, ինքը մեր տեղը արդեն ռեսպոնսիվա սարգում․ Ոնց ասելեի row-ը բախկացացա մաքսիմումը 12 հատ սետկայից, եթե ուզումես մի կողմում տեքստը լինի մյւս կողմում նկարը, կարողես դրա մեջ ստեխծել 2 հատ սետկա որոնք կգրավեն եկրանի կեսը այսինքն 6 և 6․ Անպայման եկրանի 12 պետկա գրավի սետկան տեչե կիսատա լինելու. -->
+                  <div id="col-padding" class="col-sm-6 col-md-3"> <!-- Սա քո սետկանա որը գրավումա եկրանի 1/3 991 պիքսելից սկսաց, քանի որ գիդենք արդեն եկրանի մաքսիմալ չափսը բախկացացա 12 սետկայից և քանի որ 4 հատ սկիլլ ունես, ես ամեն մի սետկին գրեցի 3, որ ետ մաքսիմալ 12-ը գրավի․ col-sm-6 աշխատումա են դեպքում երբ եկրանի չապսը հասնումա 991 մինչև 767 պիքսել․ Այսինքն ետ վախտ քո մի սետկան դառնումա 6 և վերջի երկու սկիլլերը ընգնումեն մյուս տող որովհետեվ սետկայի մաքսիմալ լայնությունը (12) գերազանցումա․ Որ 767 պիքսելից ավելի փոքրա, քո ամեն մի սետկան դառնումա 12 և բոլոր սկիլլերը գրավումեն մեկ տող․-->
+                    <h2 class="html2"><i class="fab fa-html5"></i><br> HTML</h2>
+                  </div>
+                  <div id="col-padding" class="col-sm-6 col-md-3"> <!-- Սաել փոփոխությունները կառավարելու համար ըստ սետկայի լայնության չափսով (col-lg(large) սկսաց 1200px և ավելին), (col-md(medium) սկսաց 991px մինջև 1200px), (col-sm(small) սկսաց 767px մինջև 991px), (col-xs(extrasmall) սկսաց 0px մինջև 767px) -->
+                    <h2 class="css2"><i class="fab fa-css3-alt"></i><br> CSS</h2>
+                  </div>
+                  <div id="col-padding" class="col-sm-6 col-md-3">
+                    <h2 class="js2"><i class="fab fa-js"></i><br> JavaScript</h2>
+                  </div>
+                  <div id="col-padding" class="col-sm-6 col-md-3">
+                    <h2 class="fastcoding2"><i class="far fa-clock"></i><br> Fast Coding</h2>
+                  </div>
+               </div>
+              </div>
+           </div>
+        </div>
+
+
+        <div class="main_projects_section">
+            <div class="container-fluid">
+              <div class="projects_title"><h1>My Projects</h1></div>
+               <div class="projects">
+                 <div class="row">
+                    <div style="text-align: center;" class="col-sm-6 col-md-3">
+                        <a style="text-decoration: none;" href="websites/Web Site/index.html" target="_blank">
+                          <div class="project project1"><p class="projecttext">Lambda Restaurant</p></div>
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <a style="text-decoration: none;" href="websites/Cosmos Official/index.html" target="_blank">
+                           <div class="project project2"><p class="projecttext">Cosmos</p></div>
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <a style="text-decoration: none;" href="websites/Gta 6 Cool Gallery/Gallery/index.html" target="_blank">
+                            <div class="project project3"><p class="projecttext">Miami Gallery</p></div>
+                         </a>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <a style="text-decoration: none;" href="websites/Switch/index.html" target="_blank">
+                            <div class="project project4"><p class="projecttext">Switch</p></div>
+                         </a>
+                    </div>
+                 </div>
+               </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <footer>
+        <div class="footerdiv">
+            <p class="footerp">Copyright © 2024</p>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/8628f0fd9a.js" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
